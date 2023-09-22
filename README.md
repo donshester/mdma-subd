@@ -26,8 +26,32 @@ Online Store
 ## Database Model
 ![Logical Database Model](myStore.svg)
 
-## Entity Descriptions
 
+**Regular Users (Buyers):**
+1. **View Products:** Users can view a list of products, their descriptions, images and prices.
+2. **Product Search:** Users can search for products by categories, keywords and filters.
+3. **Adding Products to Cart:** Users can add products to their cart for further checkout.
+4. **Checkout:** Users can place orders by specifying the delivery address and payment method.
+5. **View Order History:** Users can view their previous orders and their statuses.
+6. **Leaving Reviews:** Users can leave reviews and ratings for products.
+7. **Profile Management:** Users can edit their profile including shipping details and password.
+
+**Sellers:**
+1. **Adding Products:** Sellers can add new products to the store by adding name, description, price and photos.
+2. **Editing Products:** Sellers can update information about their products, including price and description.
+3. **Stock Keeping Units (SKU):** Sellers can manage the quantity and availability of products in SKUs (stock keeping units).
+4. **View Orders:** Sellers can view orders received from customers and set their status.
+5. **View Sales Statistics:** Sellers have access to sales statistics for their products.
+
+**Administrators:**
+1. **User Management:** Administrators can manage user accounts, approving registrations.
+2. **Product Management:** Administrators have access to manage all products on the site, including adding, editing and deleting.
+3. **Order monitoring:** Administrators can view all orders, set their statuses and track the overall order processing process.
+4. **Category Management:** Administrators can manage product categories by adding or removing them.
+5. **Discount Management:** Administrators can manage discounts, including creating and deleting promotions and product discounts.
+
+
+## Entity Descriptions
 
 **Table: users**
 
